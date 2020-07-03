@@ -9,7 +9,7 @@ class Mksocksproxy < Formula
   head "#{REPOSITORY_URL}.git", :tag => HOMEBREW_GITPULLS_VERSION
 
   def install
-    bin.install "bin"
+    bin.install "/usr/local/bin"
   end
 
   test do
