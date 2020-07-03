@@ -1,11 +1,11 @@
 REPOSITORY_URL="https://github.com/tohta/mksocksproxy".freeze
-HOMEBREW_GITPULLS_VERSION="0.0.1".freeze
+HOMEBREW_GITPULLS_VERSION="0.0.2".freeze
 
 class Mksocksproxy < Formula
   desc "mksocksproxy"
   homepage REPOSITORY_URL
   url "#{REPOSITORY_URL}/archive/#{HOMEBREW_GITPULLS_VERSION}.tar.gz"
-  sha256 "d38106a1232175fdb1d1f4ad2f2b2df85c5a83c280a3827fd2408ace98a0f477"
+  sha256 "fb0265a9348b6dd99d61f6be785d3adfed8f240e675fe59fd6630ac4cf0547ff"
   head "#{REPOSITORY_URL}.git", :tag => HOMEBREW_GITPULLS_VERSION
 
   def install
